@@ -128,8 +128,6 @@
 //   );
 // }
 
-
-
 import Novels from "../assets/Novels.webp";
 import Science from "../assets/Science.jpg";
 import Technology from "../assets/Technology.jpg";
@@ -146,7 +144,6 @@ export default function Books() {
 
   return (
     <div className="bg-[#f0ebe0] text-[#2a2622] overflow-x-hidden">
-
       {/* HERO SECTION */}
       <section className="relative min-h-[70vh] flex flex-col items-center justify-center text-center px-6 bg-[#493a2a]">
         <div className="relative z-10 max-w-3xl">
@@ -155,7 +152,8 @@ export default function Books() {
           </h1>
 
           <p className="text-[#d8d0bc] text-lg md:text-xl">
-            Discover thousands of books across fiction, science, history, technology, and more.
+            Discover thousands of books across fiction, science, history,
+            technology, and more.
           </p>
 
           <button
@@ -188,6 +186,7 @@ export default function Books() {
       <Section
         img={History}
         title="History Collection"
+        category="history"
         text="Explore historical books that reveal ancient civilizations and world events."
         reverse={true}
         navigate={navigate}
@@ -196,6 +195,7 @@ export default function Books() {
       <Section
         img={Arts}
         title="Arts & Literature"
+        category="arts-and-literature"
         text="Discover poetry, literature, and artistic works that reflect creativity and culture."
         reverse={false}
         navigate={navigate}
@@ -204,6 +204,7 @@ export default function Books() {
       <Section
         img={Biography}
         title="Biographies"
+        category="biography"
         text="Learn from the life stories of great personalities and their achievements."
         reverse={true}
         navigate={navigate}
@@ -212,6 +213,7 @@ export default function Books() {
       <Section
         img={Science}
         title="Science & Research"
+        category="science-and-research"
         text="Expand your knowledge of physics, chemistry, biology, and discoveries."
         reverse={false}
         navigate={navigate}
@@ -220,6 +222,7 @@ export default function Books() {
       <Section
         img={Technology}
         title="Technology & Innovation"
+        category="technology-and-innovation"
         text="Stay updated with programming, AI, cybersecurity, and innovations."
         reverse={true}
         navigate={navigate}
@@ -228,6 +231,7 @@ export default function Books() {
       <Section
         img={Academic}
         title="Academic Resources"
+        category="academic-resources"
         text="Support your studies with textbooks and learning materials."
         reverse={false}
         navigate={navigate}
@@ -236,11 +240,11 @@ export default function Books() {
       <Section
         img={Business}
         title="Business & Economics"
+        category="business-and-economics"
         text="Learn business, finance, entrepreneurship, and economic principles."
         reverse={true}
         navigate={navigate}
       />
-
     </div>
   );
 }
@@ -276,8 +280,6 @@ function Section({ img, title, text, reverse, navigate, category }) {
         </button>
       </div>
     </section>
-
-    
   );
 }
 
