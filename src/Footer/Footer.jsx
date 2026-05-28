@@ -42,7 +42,7 @@ function TwitterIcon(props) {
 
 const Footer = () => {
   return (
-    <footer className="mt-16 bg-[#2f1d16] text-white rounded-t-3xl shadow-xl">
+    <footer className="bg-[#2f1d16] text-white shadow-xl">
       <div className="max-w-6xl mx-auto px-6 py-10 grid md:grid-cols-3 gap-8">
         <div>
           <div className="flex items-center gap-2 text-xl font-bold">
