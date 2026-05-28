@@ -260,7 +260,7 @@ function Section({ img, title, text, reverse, navigate, category }) {
       <img
         src={img}
         alt={title}
-        className="w-full md:w-[320px] h-[320px] object-cover rounded-xl shadow-lg"
+        className="w-full md:w-[320px] h-80 object-cover rounded-xl shadow-lg"
       />
 
       {/* TEXT */}

@@ -16,14 +16,14 @@ export default function Hero() {
   return (
     <main className="flex-1">
       {/* HERO SECTION */}
-      <section className="relative w-full h-[600px]">
+      <section className="relative w-full h-150">
         <img
           src={library}
           alt="library"
           className="w-full h-full object-cover"
         />
 
-        <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-black/70"></div>
+        <div className="absolute inset-0 bg-linear-to-b from-black/70 via-black/50 to-black/70"></div>
 
         <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-4">
           <h1 className="text-white text-4xl md:text-6xl font-bold leading-tight">

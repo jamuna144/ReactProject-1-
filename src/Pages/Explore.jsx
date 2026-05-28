@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom";
 import janeEyre from "../assets/JaneEyre.jpg";
 
-export const bookData = {
+const bookData = {
   novels: [
     {
       id: 1,

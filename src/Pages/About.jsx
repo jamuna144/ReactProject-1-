@@ -57,10 +57,10 @@ export default function About() {
         </div>
       </div>
 
-      {/* Footer */}
+      {/* Footer
       <div className="text-center mt-12 text-black text-lg bold animate-pulse">
         Built with ❤️ for readers and knowledge seekers
-      </div>
+      </div> */}
     </div>
   );
 }
